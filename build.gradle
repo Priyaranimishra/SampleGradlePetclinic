@@ -271,7 +271,7 @@ configurations {
     wars
 }
   dependencies {
-    wars "org.springframework.samples:spring-petclinic-master:1.0@war"
+    wars "org.springframework.samples:spring-petclinic-master:1.1@war"
 }
   task downloadBinaryArchive(type: Copy) {
     from configurations.wars
