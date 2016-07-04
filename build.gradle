@@ -199,7 +199,7 @@ apply plugin: "sonar-runner"
 
 sonarRunner {
 sonarProperties {
-             property "sonar.host.url", "http://localhost:9000"
+             property "sonar.host.url", "http://localhost:9002"
              property "sonar.jdbc.url", "jdbc:mysql://localhost:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
              property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
              property "sonar.jdbc.username", "root"
