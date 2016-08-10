@@ -5,7 +5,7 @@ apply plugin: "groovy"
 
 //apply plugin: 'com.jfrog.artifactory-upload'
 apply plugin: "com.jfrog.artifactory"
-apply plugin: "com.bmuschko.nexus"
+//apply plugin: "com.bmuschko.nexus"
 
 allprojects {
 apply from: "$rootDir/gradle/versioning.gradle"
