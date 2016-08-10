@@ -278,9 +278,9 @@ configurations {
     into "buildDir/download"
      }
 
-//apply plugin: 'com.bmuschko.cargo'
+//apply plugin: 'com.bmuschko.cargo'//
 
- cargo {
+ /*cargo {
            containerId = 'tomcat7x'
             port = 8080
                   deployable {
@@ -293,6 +293,6 @@ configurations {
           username = "${tomcat_Local_username}"
           password = "${tomcat_Local_password}"
             }
-     }//
+     }*/
   
 
