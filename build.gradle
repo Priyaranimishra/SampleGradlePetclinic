@@ -247,7 +247,7 @@ publishing {
                     from components.web
                                    }
                        }
-         repositories {
+        /* repositories {
                 //mavenCentral()
                 //jcenter()
                  maven {
@@ -257,7 +257,7 @@ publishing {
                        password = "${nexus_password}"
                                }
                              }
-                           }
+                           }*/
              }
              
  repositories {
