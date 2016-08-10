@@ -257,8 +257,8 @@ publishing {
                        password = "${nexus_password}"
                                }
                              }
-                           }*/
-             }
+                           }
+             }*/
              
  repositories {
     maven {
