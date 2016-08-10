@@ -260,11 +260,11 @@ publishing {
                            }
              }*/
              
- repositories {
+/* repositories {
     maven {
         url fullRepoUrl
     }
-}
+}*/
 
  
 configurations {
