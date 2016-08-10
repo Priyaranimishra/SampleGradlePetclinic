@@ -50,7 +50,7 @@ ext {
     webjars_jquery_version = '1.9.0'
     dandelion_datatables_version = '0.8.7'
     mysql_version = '5.1.22'
-    tomcat_version = '7.0.11'
+    /*tomcat_version = '7.0.11'*/
 }
 
 buildscript {
@@ -65,12 +65,12 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.gradle.api.plugins:gradle-tomcat-plugin:0.9.9'
         classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.0.1"
         classpath 'org.jfrog.buildinfo:build-info-extractor-gradle:4.1.1'
+       /* classpath 'org.gradle.api.plugins:gradle-tomcat-plugin:0.9.9'
         classpath "com.bmuschko:gradle-nexus-plugin:2.3.1"
         classpath "com.google.gerrit:gerrit-war:2.10.3.1@war"
-        classpath 'com.bmuschko:gradle-cargo-plugin:2.2'
+        classpath 'com.bmuschko:gradle-cargo-plugin:2.2'*/
     }         
 }
 
@@ -175,11 +175,11 @@ dependencies {
     testCompile("org.hamcrest:hamcrest-library:${hamcrest_version}")
     testCompile("org.hamcrest:hamcrest-core:${hamcrest_version}")
 
-    tomcat("org.apache.tomcat.embed:tomcat-embed-core:${tomcat_version}")
+    /*tomcat("org.apache.tomcat.embed:tomcat-embed-core:${tomcat_version}")
     tomcat("org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcat_version}")
     tomcat("org.apache.tomcat.embed:tomcat-embed-jasper:${tomcat_version}") {
         exclude group: 'org.eclipse.jdt.core.compiler', module: 'ecj'
-    }
+    }*/
     
     runtime 'mysql:mysql-connector-java:5.1.31@jar'
     jdbcDriver 'mysql:mysql-connector-java:5.1.31@jar'
