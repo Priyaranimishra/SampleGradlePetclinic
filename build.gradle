@@ -74,7 +74,7 @@ buildscript {
     }         
 }
 
-apply plugin: 'tomcat'
+/*apply plugin: 'tomcat'
 
 configurations.all {
     resolutionStrategy {
@@ -89,7 +89,7 @@ configurations.all {
             }
         }
     }
-}
+}*/
 
 
    
