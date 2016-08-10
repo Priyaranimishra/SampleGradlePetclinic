@@ -235,7 +235,7 @@ into('WEB-INF/classes')
 }
 }
 
-apply plugin: 'maven-publish'
+/*apply plugin: 'maven-publish'
 
 def fullRepoUrl = 'http://localhost:9081/nexus/content/repositories/releases/'
 publishing {
@@ -246,7 +246,7 @@ publishing {
                     version '1.1'
                     from components.web
                                    }
-                       }
+                       }*/
         /* repositories {
                 //mavenCentral()
                 //jcenter()
